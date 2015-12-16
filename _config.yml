@@ -1,8 +1,10 @@
 # Site wide configuration
 
-title:            Site Title
-locale:           en_US
+title:            All things scattered
+locale:           en_UK
 url:
+
+timezone: Europe/Madrid
 
 
 # Jekyll configuration
@@ -26,9 +28,9 @@ kramdown:
 
 # Site owner
 owner:
-  name: Your Name
-  avatar: bio-photo.jpg
-  bio: "Describe your self."
+  name: Giovanni Giupponi
+  avatar: siltri.jpeg
+  bio: "Primum philosophari. Deinde vivere."
   email:
   disqus-shortname:
   twitter: #username
@@ -40,9 +42,9 @@ owner:
     ad-client:
     ad-slot:
   bing-verify:
-  github: #username
+  github: giuppo
   stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
-  linkedin: #username
+  linkedin: giovannigiupponi
   xing: #username
   instagram: #username
   lastfm: #username
