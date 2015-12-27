@@ -70,7 +70,11 @@ img {
 <h2>Abstract</h2>
 <p>‘Practical Machine Learning’ course project. The course is kindly provided by Johns Hopkins University and Coursera. The project requires the use of machine learning techniques to analyze <a href="http://groupware.les.inf.puc-rio.br/har">Human Activity Recognition (HAR) data</a> and predict the activity ‘quality’ (classe column) performed by the wired user.</p>
 <p>An important and useful goal of the project is nonetheless to practice a mix of techniques such as k-fold cross validation, features selection, identification of correlated and zero variance predictors, that can be used to build a forecasting algorithm.</p>
-<p>For this case, we use trees to predict the ‘classe’ feature and we report the Out of Sample prediction accuracy, which is not particularly good (0.47). In order to better the accuracy, we therefore resort to a different algorithm, random forest, tailoring the model on the features present in the testing set.</p>
+<p>For this case, we use trees to predict the ‘classe’ feature and we report the
+Out of Sample prediction accuracy, which is not particularly good (0.47). In
+order to better the accuracy, we therefore <a
+  href="http://giuppo.github.io/random-forests-coursera-har/">resort to a
+  different algorithm</a>, random forest, tailoring the model on the features present in the testing set.</p>
 <ul>
 <li><a href="https://d396qusza40orc.cloudfront.net/predmachlearn/pml-training.csv">Training data</a></li>
 <li><a href="https://d396qusza40orc.cloudfront.net/predmachlearn/pml-testing.csv">Testing data</a></li>
@@ -153,7 +157,8 @@ proc.time() - ptm</code></pre>
 </div>
 <div id="expected-out-of-sample-accuracy" class="section level3">
 <h3>Expected out of sample accuracy</h3>
-<p>The estimated out of sample accuracy is the average (with standard deviation) over the results obtained with the different folds. Mean accuracy is 0.47, surely not a great results.</p>
+<p>The estimated out of sample accuracy is the average (with standard deviation) over the results obtained with the different folds. Mean accuracy is 0.47, surely not a great results.
+However, this was not the goal of this study. <a href="http://giuppo.github.io/random-forests-coursera-har/">Random forests reach 99% prediction accuracy</a></p>
 <pre class="r"><code>paste(round(mean(accs),2), round(sd(accs),2))</code></pre>
 <pre><code>## [1] &quot;0.47 0.06&quot;</code></pre>
 </div>
