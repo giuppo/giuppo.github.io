@@ -1,6 +1,6 @@
 ---
 layout: home
-excerpt: "A minimal Jekyll theme for your blog by designer Michael Rose."
+excerpt: "Soloing on a linux keyboard"
 tags: [Data, Dev, Ops, DevOps, AWS]
 image:
   feature: siltri.jpg
