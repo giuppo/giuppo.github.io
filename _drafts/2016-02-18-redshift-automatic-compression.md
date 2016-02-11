@@ -1,9 +1,8 @@
 ---
 layout: post
-title: "Measuring AWS RDS production downtime"
-excerpt: "Getting comfortable and experienced with the inevitable RDS downtime
-when modifying instance types"
-tags: [rds, aws, databases, ops]
+title: "Compressing Redshift tables"
+excerpt: "Reducing space reduces cost and data IO/net, leading to faster queries"
+tags: [redshift, aws, databases, ops]
 comments: true
 ---
 
