@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Saving money optimizing RDS instances usage"
+title: "Saving money by optimizing usage of RDS instances"
 excerpt: "Revising DB metrics and scaling down RDS infrastructure can lead to
 massive savings"
 tags: [rds, aws, databases, ops]
