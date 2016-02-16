@@ -1,6 +1,9 @@
 ---
 layout: post
 title: "Testing AWS RDS failover downtime"
+image:
+  feature: diavolo.jpg
+  credit: Richelmo Giupponi
 excerpt: "Getting comfortable and experienced with the inevitable RDS downtime
 when modifying instance types/sizes"
 tags: [rds, aws, databases, ops]

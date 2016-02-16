@@ -1,6 +1,9 @@
 ---
 layout: post
 title: "Saving money by optimizing usage of RDS instances"
+image:
+  feature: cresta.jpg
+  credit: Richelmo Giupponi
 excerpt: "Revising DB metrics and scaling down RDS infrastructure lead to saving
 12614 dollars / year"
 tags: [rds, aws, databases, ops]
