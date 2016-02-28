@@ -5,7 +5,7 @@ image:
   feature: cresta.jpg
   credit: Richelmo Giupponi
 excerpt: "Revising DB metrics and scaling down RDS infrastructure lead to saving
-12614 dollars / year"
+12,614 dollars / year"
 tags: [rds, aws, databases, ops]
 comments: true
 ---
